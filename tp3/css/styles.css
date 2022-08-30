@@ -1,0 +1,25 @@
+/* Feuille de styles */
+
+img {
+	width: 100%;
+}
+
+img:hover {
+	border: solid #ddd 6px;
+}
+
+/* /!\ jumbotron */
+
+.px-50 {
+	width: 50px;
+}
+
+.px-70 {
+	width: 70px;
+}
+
+.test {
+	align-content: right;
+	text-align: right;
+	float: right;
+}

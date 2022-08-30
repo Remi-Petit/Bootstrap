@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <!-- JavaScripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <title>Inscription</title>
+  </head>
+  <body>
+    <!-- Ajouter la barre de menu -->
+    <nav class="nav bg-dark">
+      <a class="nav-link text-light" href="#"><img src="../img/logo_lego.jpg" class="px-50 m-2">WebStore</a>
+      <a class="nav-link text-secondary m-3" href="produit.html">Produits</a>
+      <a class="nav-link text-secondary m-3" href="panier.html">Panier</a>
+      <a href="inscription.html">
+        <button class="btn btn-outline-secondary m-4 test"><i class="fas fa-user p-1"></i>Compte</button>
+      </a>
+    </nav>
+    <div class="container p-3 p-md-5">
+      <h2>Création d'un compte</h2>
+      <div class="progress">
+        <div class="progress-bar bg-primary" style="width: 25%"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div id="erreurNom" class="gene"></div>
+          <br>
+          <label for="inputnom">Nom</label>
+          <br>
+          <input required type="text" name="nom" id="inputnom" placeholder="Nom">
+        </div>
+        <div class="col-sm-6">
+          <div id="erreurMail" class="gene"></div>
+          <br>
+          <label for="inputmail">Email</label>
+          <br>
+          <input required type="text" name="email" id="inputmail" placeholder="Email">
+        </div>
+      </div>
+      <br>
+      <p>
+        Date de naissance
+      </p>
+      <div class="row">
+        <div class="col-4">
+          <input type="text" name="jour">
+        </div>
+        <div class="col-4">
+          <input type="text" name="mois">
+        </div>
+        <div class="col-4">
+          <input type="text" name="annee">
+        </div>
+      </div>
+      <br>
+      <p>
+        Adresse mail
+      </p>
+      <div class="row">
+        <div class="col-12">
+          <label for="inputnom">Nom</label>
+          <br>
+          <input required type="text" name="nom" id="inputnom" placeholder="Nom">
+        </div>
+      </div>
+      <footer>
+        <hr>
+        <div class="row">
+          <div class="col-8">
+            <p class="font-weight-bold">
+              LEGO WebStore
+            </p>
+            <p>
+              Maison de la Recherche Blaise Pascal
+            </p>
+            <p>
+              50 rue Ferdinand Buisson
+            </p>
+            <p>
+              62228, Calais
+            </p>
+          </div>
+          <div class="col-4 text-right">
+            <img src="../img/logo_lego.jpg" class="px-70">
+            <p>
+              WebStore
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

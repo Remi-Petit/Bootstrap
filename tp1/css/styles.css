@@ -1,0 +1,50 @@
+/* Feuille de styles CSS */
+table, tr, td, th{
+	border: solid black 1px;
+	border-collapse: collapse
+}
+
+table {
+	border: solid black 3px;
+}
+
+th {
+	border-bottom: solid black 3px;
+}
+
+body {
+	background-color: #eeeeee;
+	font-family: sans-serif;
+}
+
+.cadre {
+	background-color: white;
+	width: 600px;
+	padding: 32px;
+	margin: auto;
+}
+
+.lego {
+	color: #007bff;
+	font-style: italic;
+}
+
+a {
+	color: #007bff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.source {
+	font-size: 12px;
+	text-align: right;
+}
+
+.centrer {
+	margin: auto;
+	text-align: center;
+}
